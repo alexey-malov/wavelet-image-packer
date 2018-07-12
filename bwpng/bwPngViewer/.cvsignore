@@ -1,0 +1,11 @@
+*.ncb
+*.opt
+*.plg
+Release
+Debug
+*.obj
+*.lib
+*.aps
+*.clw
+lib
+

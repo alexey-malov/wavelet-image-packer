@@ -1,0 +1,131 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "bmp2bwl"=..\bmp2bwl\bmp2bwl.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name brainwavelets_static
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name bwlpacker_static
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "brainwavelets_static"=..\brainwavelets\brainwavelets_static.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "brainwavelets_test"=..\BRAINWAVELETS\brainwavelets_test\brainwavelets_test.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name brainwavelets_static
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "bwImagePacker"=.\bwImagePacker\bwImagePacker.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name brainwavelets_static
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name bwlpacker_static
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name libBwPng_static
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "bwPngViewer"=..\bwPng\bwPngViewer\bwPngViewer.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name brainwavelets_static
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name bwlpacker_static
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name libBwPng_static
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "bwlpacker_static"=..\BrainWaveletPacker\bwlpacker_static.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name brainwavelets_static
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "libBwPng_static"=..\bwPng\libBwPng_static.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

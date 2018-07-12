@@ -1,0 +1,8 @@
+*.ncb
+*.opt
+*.plg
+Release
+Debug
+*.obj
+*.lib
+lib

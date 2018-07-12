@@ -1,0 +1,34 @@
+// IPngCodec.cpp: implementation of the IPngCodec class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include <stdio.h>
+#include "..\include\IPngCodec.h"
+#include "PngCodec.h"
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+namespace bwPng
+{
+
+
+IPngCodec::IPngCodec()
+{
+
+}
+
+IPngCodec::~IPngCodec()
+{
+
+}
+
+IPngCodec* IPngCodec::Create()
+{
+	return new CPngCodec;
+}
+
+
+};
+
